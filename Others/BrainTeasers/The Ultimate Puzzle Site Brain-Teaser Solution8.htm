@@ -1,0 +1,74 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0044)http://www.dse.nl/puzzle/logical/pirate.html -->
+<HTML><HEAD><TITLE>The Ultimate Puzzle Site: Brain-Teaser Solution</TITLE>
+<META content="text/html; charset=windows-1252" http-equiv=Content-Type>
+<META content="R.P.T. van Gassel &amp; C.E. Heijmans &amp; E.R. van Veldhoven" 
+http-equiv=Owner>
+<META content="robvg@win.tue.nl  jurgen@win.tue.nl  edwinv@win.tue.nl" 
+http-equiv=Reply-To>
+<META content="R.P.T. van Gassel &amp; C.E. Heijmans &amp; E.R. van Veldhoven" 
+name=Author>
+<META content="Copyright (c) 1996-1998. RJE-productions. All rights reserved." 
+name=Copyright>
+<META content="" name=Keywords><LINK href="mailto:puzzle@dse.nl" rev=made><!-- <BASE HREF="http://www.dse.nl/puzzle/logical/"> -->
+<META content="MSHTML 5.00.2014.210" name=GENERATOR></HEAD>
+<BODY 
+background="The Ultimate Puzzle Site Brain-Teaser Solution8_files/bkgrnd.gif" 
+bgColor=#ffeedd text=#000077><IMG alt=---line--- 
+src="The Ultimate Puzzle Site Brain-Teaser Solution8_files/spectbar.gif" 
+width="100%">
+<HR>
+ <!-- *** PIRATE TREASURE *** -->
+<H2><FONT size=+4>S</FONT><I>olution for</I>: <FONT size=+4>P</FONT><I>irate</I> 
+<FONT size=+4>T</FONT><I>reasure...</I> </H2><FONT size=+2>T</FONT>he idea 
+behind the solution for this puzzle is that a pirate will accept a proposal only 
+if he knows that in case he would not accept the proposal, he would get less of 
+the treasure. 
+<P><FONT size=+2>I</FONT>f pirate 1 would be the only one left, he would get all 
+the golden coins. If only pirates 1 and 2 would be left, pirate 2 would die for 
+sure, since pirate 1 is bloodthirsty and will reject all proposals of pirate 2 
+(since he will get all coins anyway). So: <PRE>                  |  Pirate 1  |  Pirate 2
+  ----------------+------------+------------
+  Number of coins |    1000    |     0
+  ----------------+------------+------------
+  Pirate agrees   |    No      |    Yes
+</PRE>
+<P><FONT size=+2>W</FONT>hen also pirate 3 would still be alive, he needs the 
+agreement of one of the other two. Pirate 2 will agree with every proposal 
+since, as we have seen, he would die if he didn't. So pirate 3 should propose to 
+keep everything for himself. <PRE>                  |  Pirate 1  |  Pirate 2  |  Pirate 3
+  ----------------+------------+------------+------------
+  Number of coins |     0      |     0      |    1000
+  ----------------+------------+------------+------------
+  Pirate agrees   |     No     |    Yes     |    Yes
+</PRE>
+<P><FONT size=+2>W</FONT>hen we have four pirates, pirate 4 should make two 
+other pirates agree with his proposal. So he proposes to give one coin to pirate 
+1, one coin to pirate 2, and the rest to himself. Pirates 1 and 2 will accept 
+the proposal, since they are greedy, and if they wouldn't, they would get less. <PRE>                  |  Pirate 1  |  Pirate 2  |  Pirate 3  |  Pirate 4
+  ----------------+------------+------------+------------+------------
+  Number of coins |     1      |     1      |     0      |    998
+  ----------------+------------+------------+------------+------------
+  Pirate agrees   |    Yes     |    Yes     |     No     |    Yes
+</PRE>
+<P><FONT size=+2>B</FONT>ut as we know, there are five pirates. If pirate 5 
+gives both pirate 1 (or 2) and pirate 3 one coin more than in the previous case, 
+they are willing to accept the proposal. Then a majority (three out of five) of 
+the pirates will support the proposal, and pirate 5 can keep the rest of the 
+treasure to himself. <PRE>                  |  Pirate 1  |  Pirate 2  |  Pirate 3  |  Pirate 4  |  Pirate 5
+  ----------------+------------+------------+------------+------------+------------
+  Number of coins |     2      |     0      |     1      |     0      |    997
+  ----------------+------------+------------+------------+------------+------------
+  Pirate agrees   |    Yes     |     No     |    Yes     |     No     |    Yes
+</PRE><FONT size=+2>C</FONT>onclusion: Pirate 5 should propose to give two coins 
+to pirate 1 (or 2), one coin to pirate 3, and the remaining 997 coins to 
+himself.<BR><BR><A 
+href="http://www.dse.nl/puzzle/logical/index.html#pirate_treasure"><IMG 
+alt=[BACK] border=0 height=14 
+src="The Ultimate Puzzle Site Brain-Teaser Solution8_files/left.gif" 
+width=33><FONT size=-1><I>back to the puzzle</I></FONT></A> 
+<HR>
+<IMG alt=---line--- 
+src="The Ultimate Puzzle Site Brain-Teaser Solution8_files/spectbar.gif" 
+width="100%"> <BR clear=all><FONT size=-1>Copyright © 1996-1998. 
+RJE-productions. All rights reserved.</FONT> </BODY></HTML>
