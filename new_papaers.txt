@@ -1,2 +1,3 @@
 http://www.cs.cmu.edu/~ukang/papers/PegasusICDM2009.pdf
 http://www.oracle.com/technetwork/articles/javase/index-140767.html
+http://svn.python.org/projects/python/trunk/Objects/listsort.txt
