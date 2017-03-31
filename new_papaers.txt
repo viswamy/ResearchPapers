@@ -2,3 +2,4 @@ http://www.cs.cmu.edu/~ukang/papers/PegasusICDM2009.pdf
 http://www.oracle.com/technetwork/articles/javase/index-140767.html
 http://svn.python.org/projects/python/trunk/Objects/listsort.txt
 http://www.journaldev.com/2856/java-jvm-memory-model-memory-management-in-java
+http://www.ebooksbucket.com/uploads/itprogramming/java/Effective_Java_2nd_Edition.pdf
